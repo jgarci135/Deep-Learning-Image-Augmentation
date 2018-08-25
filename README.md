@@ -11,6 +11,10 @@ Computer Vision for Medical Images
 **Description of data:**
 The images were obtained from video of medical procedures.  Due to the nature of the images and the current development within the company the images and the specific objective cannot be shared and is protected by an NDA.  There is an interest in specific features that occur at a specific time point.  The images collected are roughly collected from the same time point and have 5 different classifications present.  The classifications will be labeled simply 0,1,2,3,4+ or labeled with a PN prefix.  This is a limited data set as there is only 3732 samples present. 
 
+<p align="center">
+  <img width="400" height="275" src="https://github.com/jgarci135/Practicum-I/blob/master/Figures/train%20class%20distribution.JPG">
+</p>
+
 **Augmented Images:**
 Augmented images have been generated through heavy augmentation methods. This was done to better balance the data classes as well as add noise to the medical images.  The total number of images are now different, with the total number of images in the data set equal to 11553. The test set contains 10223 images while the training/validation set now contains 1330 images.
 
