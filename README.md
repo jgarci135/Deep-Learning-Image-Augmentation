@@ -39,10 +39,16 @@ Originally the model could not correctly identify any images due to the imbalanc
 <p align="center">
   <img width="400" height="450" src="https://github.com/jgarci135/Practicum-I/blob/master/Figures/Confusion%20matrix.JPG">
 </p>
-With the augmented images added to the data set the results changed in a positive manner.  Useful classification occurred of the medical images and the accuracy, at maximum, reached 72%. The confusion matrix that showed that many of the images were correctly classified and predicted across all classes.
-<p align="center">
-  <img width="300" height="275" src="https://github.com/jgarci135/Practicum-II/blob/master/Figures/adam.001confOnly.png">
-</p>
+With the augmented images added to the data set the results changed in a positive manner.  Useful classification occurred of the medical images and the accuracy, at maximum, reached 72%. The confusion matrix that showed that many of the images were correctly classified and predicted across all classes.  The optimizer chosen which had the highest validation accuracy also was over fit.  There is a reason this was kept and later described in the evaluation and summary.
+
+<div class="row">
+  <div class="column">
+    <img width="400" height="275"src="https://github.com/jgarci135/Practicum-II/blob/master/Figures/adam.001-graph.69.png" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+  </div>
+  <div class="column">
+    <img width="375" height="350"src="https://github.com/jgarci135/Practicum-II/blob/master/Figures/adam.001confOnly.png" style="float: left; width: 28%; margin-right: 1%; margin-bottom: 0.5em;">
+  </div>
+</div>
 
 
 ## Evaluation of results
@@ -55,10 +61,6 @@ Due to the accuracy not reach 95% with good generalization, a reevaluation of th
 
 ## Summary 
 Adding the augmented images had a large impact in reducing the imbalance in the data set and resulted in positive training of the model.  The results indicated that the maximum validation accuracy was no more than 72% which pushed for differing metrics of success in this particular model.  Precision and recall did not highlight anymore useful information than validation accuracy. 
-
-<p align="center">
-  <img width="300" height="250" src="https://github.com/jgarci135/Practicum-II/blob/master/Figures/adam.001-graph.69.png">
-</p>
 
 Re-examining the purpose of the project and the defined problem led to the realization that only class 2 is of interest. Not all classes must be properly classified resulting in accuracy results of class 2 images from 90-95%.  All other classes misclassified as class 2 would have to be reviewed in the final application but are easy to identify.  There is a significant  reduction in the amount of images that would need be checked as well as the total number misclassified is small. About 5%-13%.
 
