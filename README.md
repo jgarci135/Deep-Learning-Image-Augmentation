@@ -74,6 +74,6 @@ Some directions to explore in order to increase the accuracy and reliability of 
 
 * Obtain more data to add to the model.  
 * Create bottle neck features from a mid output layer.
-* Create bottle neck features from a different per-trained model.
+* Create bottle neck features from a different pre-trained model.
 
 There is a strong case that the accuracy of the model was good in reference to ascertaining the class of interest.  Some misclassifications will be acceptable, however the application of classifying class 2 accurately will have a large impact in its use case.  The most useful information learned from this project has been from stepping back and evaluating what is the true goal of the project.
