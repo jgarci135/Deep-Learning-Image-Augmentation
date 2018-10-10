@@ -1,4 +1,4 @@
-# Practicum-II
+# Image Augmentation to Optimize Results
 Computer Vision for Medical Images
 
 <p align="center">
